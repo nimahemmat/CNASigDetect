@@ -1,0 +1,27 @@
+Package: CNASigDetect
+Title: Copy-Number Signature Detection and Genome Wide Alteration
+Version: 0.1.0
+Authors@R:
+    person("nima", "hemmat", , "nima.hemmat@petermac.org", role = c("aut", "cre"))
+Description: From allele-specific segments to cytoband/arm summaries and NMF signatures.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    dplyr,
+    GenomicRanges,
+    ggplot2,
+    IRanges,
+    magrittr,
+    NMF,
+    rlang,
+    S4Vectors,
+    tidyr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
