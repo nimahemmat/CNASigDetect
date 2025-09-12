@@ -25,5 +25,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-URL: https://github.com/nimahemmat/CNASigDetect
+URL: https://github.com/nimahemmat/CNASigDetect, https://nimahemmat.github.io/CNASigDetect/
 BugReports: https://github.com/nimahemmat/CNASigDetect/issues
