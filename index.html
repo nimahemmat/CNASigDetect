@@ -13,6 +13,7 @@
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Copy-Number Signature Detection and Genome Wide Alteration">
 <meta name="description" content="From allele-specific segments to cytoband/arm summaries and NMF signatures.">
 <meta property="og:description" content="From allele-specific segments to cytoband/arm summaries and NMF signatures.">
+<meta property="og:image" content="https://nimahemmat.github.io/CNASigDetect/logo.png">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -51,8 +52,46 @@
   </div>
 </nav><div class="container template-home">
 <div class="row">
-  <main id="main" class="col-md-9">
-From allele-specific segments to cytoband/arm summaries and NMF signatures.
+  <main id="main" class="col-md-9"><div class="section level1">
+<div class="page-header">
+<img src="logo.png" class="logo" alt=""><h1 id="cnasigdetect">CNASigDetect<a class="anchor" aria-label="anchor" href="#cnasigdetect"></a>
+</h1>
+</div>
+<!-- badges: start -->
+
+</div>
+<div class="section level1">
+<h1 id="cnasigdetect-1">CNASigDetect<a class="anchor" aria-label="anchor" href="#cnasigdetect-1"></a>
+</h1>
+<p>CNASigDetect is an R package for detecting and interpreting <strong>copy number alteration (CNA) signatures</strong> from allele-specific segmentation data in tumor genomes.<br>
+It provides tools to:</p>
+<ul>
+<li>Standardize raw segment data into a clean input format.<br>
+</li>
+<li>Classify segments into biologically meaningful categories (amplifications, deletions, LOH, neutral events).<br>
+</li>
+<li>Summarize CNA patterns at cytoband or chromosome-arm levels.<br>
+</li>
+<li>Extract recurrent CNA signatures across samples using unsupervised learning (e.g., NMF).<br>
+</li>
+<li>Annotate and visualize signatures for interpretation.</li>
+</ul>
+<p>This package is intended for researchers studying <strong>cancer genomics, tumor evolution, and genomic instability</strong>, offering a reproducible workflow for CNA signature discovery.</p>
+<p>To install and run the package, follow How-to-use article on <a href="https://nimahemmat.github.io/CNASigDetect/" class="uri">https://nimahemmat.github.io/CNASigDetect/</a></p>
+<hr>
+<div class="section level2">
+<h2 id="license">License<a class="anchor" aria-label="anchor" href="#license"></a>
+</h2>
+<p>This package is licensed under the MIT License.</p>
+<hr>
+</div>
+<div class="section level2">
+<h2 id="author">Author<a class="anchor" aria-label="anchor" href="#author"></a>
+</h2>
+<p>Developed and maintained by <strong>Nima Hemmat</strong>.</p>
+</div>
+</div>
+
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
@@ -84,7 +123,12 @@ From allele-specific segments to cytoband/arm summaries and NMF signatures.
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/nimahemmat/CNASigDetect/actions/workflows/pkgdown.yaml" class="external-link"><img src="https://github.com/nimahemmat/CNASigDetect/actions/workflows/pkgdown.yaml/badge.svg" alt="pkgdown"></a></li>
+</ul>
+</div>
 
   </aside>
 </div>
