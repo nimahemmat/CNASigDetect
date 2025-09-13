@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# CNASigDetect
+
+<!-- badges: start -->
+[![pkgdown](https://github.com/nimahemmat/CNASigDetect/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/nimahemmat/CNASigDetect/actions/workflows/pkgdown.yaml)
+<!-- badges: end -->
+
+# CNASigDetect
+
+CNASigDetect is an R package for detecting and interpreting **copy number alteration (CNA) signatures** from allele-specific segmentation data in tumor genomes.  
+It provides tools to:
+
+- Standardize raw segment data into a clean input format.  
+- Classify segments into biologically meaningful categories (amplifications, deletions, LOH, neutral events).  
+- Summarize CNA patterns at cytoband or chromosome-arm levels.  
+- Extract recurrent CNA signatures across samples using unsupervised learning (e.g., NMF).  
+- Annotate and visualize signatures for interpretation.  
+
+This package is intended for researchers studying **cancer genomics, tumor evolution, and genomic instability**, offering a reproducible workflow for CNA signature discovery.
+
+To install and run the package, follow How-to-use article on https://nimahemmat.github.io/CNASigDetect/
+
+---
+
+## License
+This package is licensed under the MIT License.
+
+---
+
+## Author
+Developed and maintained by **Nima Hemmat**.
